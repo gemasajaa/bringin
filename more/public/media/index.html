@@ -1,0 +1,267 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Gema Store</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+     <main>
+		
+        <div id="moremenu"
+        style="
+          height:100%;
+          display: none;
+          gap:30px;
+          color:white;
+          position:absolute;
+          background:#111340;
+          top:0;left:0;
+          flex-direction:column;
+        "
+        >
+          <div
+		  style="
+			padding:10%;
+			height:100%;
+			overflow:auto;
+			padding-top:0;
+		  "
+		  >
+			<div
+			style="
+				margin-bottom:30%;
+				display:flex;
+				align-items:center;
+				justify-content:center;
+				position:sticky;
+				top:0;
+				padding:20px 0;
+				background:#111340;
+			"
+			>
+				<img src=./more/media/closex.png
+				style="
+					width:16px;
+					height:16px;
+					cursor:pointer;
+				"
+				id=closemoremenu
+				>
+			</div>
+			<div id=moremenuitem>
+				<div>
+					<div>
+						<img src=./more/media/house.png>
+					</div>
+					Beranda
+				</div>
+				<div>
+					<div>
+						<img src=./more/media/user.png>
+					</div>
+					Login / Register
+				</div>
+				<div>
+					<div>
+						<img src=./more/media/ticket.png>
+					</div>
+					Promo & News
+				</div>
+				<div>
+					<div>
+						<img src=./more/media/price.png>
+					</div>
+					Price List
+				</div>
+				<div>
+					<div>
+						<img src=./more/media/voucher.png>
+					</div>
+					Klaim Voucher
+				</div>
+				<div>
+					<div>
+						<img src=./more/media/coin.png>
+					</div>
+					Tukar Poin
+				</div>
+				<div>
+					<div>
+						<img src=./more/media/callme.png>
+					</div>
+					Contact Us
+				</div>
+				<div>
+					<div>
+						<img src=./more/media/aboutme.png>
+					</div>
+					About Us
+				</div>
+			</div>
+		  </div>
+        </div>
+      <header>
+        <div
+        style="
+          color:#738598;
+          height:100%;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          font-size:48px;
+          cursor: pointer;
+		      margin-left:15px;
+        "
+        >
+          <img src=./more/media/hmenu.png id=openmoremenu
+          style="
+            width:32px;
+            height: 32px;
+            padding:5px;
+          ">
+        </div>
+        <div
+        style="
+          color:white;
+          height:100%;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          font-size:48px;
+          font-style: italic;
+        "
+        >
+			<div>
+				G<span style=font-size:16px>Market</span>
+			</div>
+        </div>
+        <div
+        style="
+          color:white;
+          height:100%;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          font-size:48px;
+		  margin-right:15px;
+          cursor: pointer;
+        "
+        >
+          <img src="./more/media/whitefinder.png"
+          style="
+            width:32px;
+            height: 32px;
+            padding:5px;
+          "
+          >
+        </div>
+      </header>
+      <content>
+        <div id="imglabel"
+        style="
+          width:96%;
+          padding:2%;
+        "
+        >
+          <img src="./more/media/64cf4e3842fe8cbbfa8207c30859e0cf.png">
+          <img src="./more/media/1e55766bd29e3e7c85a60d9d4887c870.png">
+          <img src="./more/media/5ec17e06f73f92b117ebf18654d85c08.png">
+          <img src="./more/media/61181b434d4118b566c0b6b1a3de6eab.png">
+        </div>
+        <div id="category"
+        style="
+          width:98%;
+          padding:0 1%;
+          background:#edeef1;
+          display: flex;
+          justify-content: flex-start;
+          gap:10px;
+          align-items: center;
+          height:15%;
+          overflow:auto;
+        "
+        >
+          <div class="activecc">
+            Topup
+          </div>
+          <div>
+            Voucher
+          </div>
+          <div>
+            Pulsa
+          </div>
+          <div>
+            PaketData
+          </div>
+          <div>
+            TokenListrik
+          </div>
+          <div>
+            Ewallet
+          </div>
+		  <div>
+            JoinReseller
+          </div>
+        </div>
+        <div id="contentbox"
+        style="
+          height: 100%;
+          width: 100%;
+          display: flex;
+          overflow: auto;
+        "
+        >
+          <div id="box-div"
+          style="
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: center;
+            overflow:auto;
+            padding:20px 0;
+          "
+          >
+            
+          </div>
+        </div>
+      </content>
+      <footer>
+        <div class="finactive factive">
+          <img
+          src="./more/media/house.png"
+          style="
+            width:16px;
+            height:16px;
+          "
+          >
+          Home
+        </div>
+        <div class="finactive">
+          <img
+          src="./more/media/icons8-deposit-50 .png"
+          style="
+            width:16px;
+            height:16px;
+          "
+          >
+          Deposit
+        </div>
+        <div class="finactive">
+          <img
+          src="./more/media/user.png"
+          style="
+            width:16px;
+            height:16px;
+          "
+          >
+          Account
+        </div>
+      </footer>
+     </main>
+    <script src="./more/infinity.js"></script>
+    <script src="./more/app.js"></script>
+  </body>
+</html>

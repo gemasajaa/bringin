@@ -1,0 +1,126 @@
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+}
+body{
+  padding:0;
+  margin:0;
+  position:absolute;
+  width:100%;
+  height:100%;
+  display: flex;
+  background:#f8f8f8;
+  justify-content: center;
+  font-size: 12px;
+  font-family: 'Oxanium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-tap-highlight-color:transparent;
+  user-select:none;
+  color:rgb(156 163 175);
+}
+main{
+  width:480px;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  position:relative;
+}
+header{
+  width:100%;
+  height:10%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+content{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  overflow:auto;
+	position:relative;
+}
+nav{
+  width:100%;
+  height:10%;
+  display:flex;
+  justify-content: flex-start;
+  align-items:center;
+}
+nav div{
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+img{
+  pointer-events: none;
+  user-select: none;
+}
+#title{
+  font-size: 16px;
+  color:black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+.items{
+  background:white;
+  width:100%;
+  height:250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+input{
+  padding:10px;
+  background:whitesmoke;
+  border:2px solid #e9e9e9;
+  outline:none;
+  width: 100%;
+  border-radius:10px;
+	font-family: 'Oxanium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+	background:gray;
+	padding:8px;
+	color:white;
+	width:100%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.invalid{
+	border:2px solid red;
+}
+textarea{
+	padding:10px;
+  background:whitesmoke;
+  border:2px solid #e9e9e9;
+  outline:none;
+  width: 100%;
+  border-radius:10px;
+	resize:none;
+	height:100px;
+	font-family: 'Oxanium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover{
+	background:#130f25;
+}
+.activenav{
+	color:black;
+  font-weight: bold;
+}
+#innerBox{
+	width:80%;
+}
+@media only screen and (max-width: 700px) {
+  main{
+    width:100%;
+  }
+	#innerBox{
+		width:100%;
+	}
+}

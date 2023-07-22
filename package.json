@@ -1,0 +1,23 @@
+{
+  "name": "bringin",
+  "version": "1.0.0",
+  "description": "Save for nature app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/gemasajaa/bringin"
+  },
+  "keywords": [
+    "save",
+    "for",
+    "nature"
+  ],
+  "author": "gemsajaa",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^11.10.1"
+  }
+}

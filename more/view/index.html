@@ -1,0 +1,93 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Bringin app</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/styles?fn=style">
+  </head>
+  <body>
+     <main>
+      <header>
+        <div id="title">
+          <img src="/file?fn=flower.png"
+          style="
+            width:24px;
+            height:24px;
+          "
+          >
+          <div>
+            <div>BRINGIN APP</div>
+            <div style="font-size:9px;">Our Nature is Our Future!</div>
+          </div>
+        </div>
+      </header>
+      <content>
+        <nav id="menus">
+          <div id="StoriesPanel">
+						<div>
+							<img src=/file?fn=location.png
+							style="
+								width:16px;
+								height:16px;
+								margin-right:5px;
+							">
+							Discover
+						</div>
+          </div>
+          <div id="NewPost">
+            <div>
+							<img src=/file?fn=notification.png
+							style="
+								width:16px;
+								height:16px;
+								margin-right:5px;
+							">
+							Ping
+						</div>
+          </div>
+					<div id="OpenAbout">
+            <div>
+							<img src=/file?fn=information.png
+							style="
+								width:18px;
+								height:18px;
+								margin-right:5px;
+							">
+							Bringin Info
+						</div>
+          </div>
+        </nav>
+        <div id="contentbox"
+        style="
+          height: 100%;
+          width: 100%;
+          display: flex;
+          overflow: auto;
+        "
+        >
+          <div id="box-div"
+          style="
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+            overflow: auto;
+            padding: 10px;
+            align-content: flex-start;
+          "
+          >
+
+          </div>
+        </div>
+      </content>
+     </main>
+		 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src=/scripts?fn=infinity></script>
+    <script src=/scripts?fn=view></script>
+    <script src=/scripts?fn=app></script>
+  </body>
+</html>
